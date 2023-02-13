@@ -20,5 +20,8 @@ print(my_dict)
 
 my_new_dict ={}
 for name, number in names.items():
-    my_new_dict[name.upper()] = int(str(number[::-1]))
+    my_new_dict[name.upper()] = int(str(number)[::-1])
+    #           'Laimonas'               25   
+    #           'LAIMONAS'               52    
+    # my_new_dict["LAIMONAS"] = 52
 print(my_new_dict)
