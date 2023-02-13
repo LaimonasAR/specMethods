@@ -17,3 +17,8 @@ names = {
 
 my_dict = {name.upper(): int(str(number)[::-1]) for (name, number) in names.items()}
 print(my_dict)
+
+my_new_dict ={}
+for name, number in names.items():
+    my_new_dict[name.upper()] = int(str(number[::-1]))
+print(my_new_dict)
