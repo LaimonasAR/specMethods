@@ -13,5 +13,5 @@ print(how_many)
 
 
 count = 0
-i = sum([count +1 for fff in text_list if "e" in fff])
+i = sum([count +1 for fff in text.split(' ') if "e" in fff])
 print(i)
